@@ -2,33 +2,30 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Test Vercel Auto Deploy - Professional Cleaning Services in Seattle, WA',
-  description: 'Premier cleaning services in Seattle, Washington. Residential and commercial cleaning solutions with reliable, professional staff. Book your cleaning service today.',
-  keywords: 'cleaning services Seattle, house cleaning, commercial cleaning, residential cleaning, maid service, office cleaning, Washington',
+  title: 'Test Vercel Auto Deploy - Premier Cleaning Services in Seattle, WA',
+  description: 'Professional cleaning services in Seattle, Washington. Residential and commercial cleaning with reliable, eco-friendly solutions. Book your cleaning service today.',
+  keywords: 'cleaning services Seattle, house cleaning Seattle WA, commercial cleaning, residential cleaning, eco-friendly cleaning',
   authors: [{ name: 'Test Vercel Auto Deploy' }],
   creator: 'Test Vercel Auto Deploy',
   publisher: 'Test Vercel Auto Deploy',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   metadataBase: new URL('https://test-vercel-auto-deploy.vercel.app'),
   openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    title: 'Test Vercel Auto Deploy - Professional Cleaning Services in Seattle, WA',
-    description: 'Premier cleaning services in Seattle, Washington. Residential and commercial cleaning solutions with reliable, professional staff.',
+    title: 'Test Vercel Auto Deploy - Premier Cleaning Services in Seattle, WA',
+    description: 'Professional cleaning services in Seattle, Washington. Residential and commercial cleaning with reliable, eco-friendly solutions.',
+    url: 'https://test-vercel-auto-deploy.vercel.app',
     siteName: 'Test Vercel Auto Deploy',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Test Vercel Auto Deploy - Cleaning Services Seattle'
-      }
-    ]
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Test Vercel Auto Deploy - Professional Cleaning Services in Seattle, WA',
-    description: 'Premier cleaning services in Seattle, Washington. Residential and commercial cleaning solutions with reliable, professional staff.',
-    images: ['/og-image.jpg']
+    title: 'Test Vercel Auto Deploy - Premier Cleaning Services in Seattle, WA',
+    description: 'Professional cleaning services in Seattle, Washington. Residential and commercial cleaning with reliable, eco-friendly solutions.',
   },
   robots: {
     index: true,
@@ -38,9 +35,9 @@ export const metadata: Metadata = {
       follow: true,
       'max-video-preview': -1,
       'max-image-preview': 'large',
-      'max-snippet': -1
-    }
-  }
+      'max-snippet': -1,
+    },
+  },
 }
 
 export default function RootLayout({
@@ -52,25 +49,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="msapplication-TileColor" content="#da532c" />
+        <link rel="canonical" href="https://test-vercel-auto-deploy.vercel.app" />
       </head>
       <body>
         <div id="root">
-          <header role="banner">
-            <nav role="navigation" aria-label="Main navigation">
-            </nav>
-          </header>
-          <main role="main">
-            {children}
-          </main>
-          <footer role="contentinfo">
-          </footer>
+          {children}
         </div>
       </body>
     </html>
