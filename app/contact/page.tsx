@@ -7,8 +7,8 @@ export default function ContactPage() {
   const email = "test@vercelauto.com";
   
   const contactContent = {
-  "heading": "Get In Touch Today",
-  "description": "Ready to experience spotless results? Contact Test Vercel Auto Cleaning in Seattle, WA for professional automotive cleaning services that exceed expectations."
+  "heading": "Get Your Quote Today",
+  "description": "Ready for spotless results? Contact Test Vercel Auto Cleaning in Seattle, WA for professional automotive cleaning services that exceed expectations."
 };
 
   return (

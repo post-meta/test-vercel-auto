@@ -8,9 +8,9 @@ export default function AboutPage() {
   
   const aboutContent = {
     heading: "Seattle's Premier Auto Cleaning Specialists",
-    story: ["Test Vercel Auto Cleaning has been serving Seattle's automotive community with professional detailing services, ensuring every vehicle receives meticulous care and attention to detail.","Located in the heart of Seattle, we combine cutting-edge cleaning technology with traditional craftsmanship to deliver exceptional results for discerning car owners."],
-    mission: "To provide Seattle drivers with superior auto cleaning services that protect, preserve, and enhance their vehicles using eco-friendly products and innovative techniques.",
-    values: [{"title":"Excellence","description":"We deliver meticulous attention to detail in every cleaning task, ensuring exceptional results that exceed client expectations consistently."}]
+    story: ["Test Vercel Auto Cleaning has been serving Seattle drivers since our founding, providing exceptional vehicle detailing services that keep cars looking pristine in the Pacific Northwest's challenging weather conditions.","Our experienced team combines cutting-edge cleaning technology with eco-friendly products, ensuring your vehicle receives the highest quality care while protecting Seattle's beautiful natural environment we all cherish."],
+    mission: "To deliver outstanding auto cleaning services that exceed expectations, using sustainable practices to keep Seattle vehicles spotless while preserving our community's environmental values.",
+    values: [{"title":"Excellence","description":"We deliver exceptional cleaning results through attention to detail, quality products, and thorough service that exceeds customer expectations."}]
   };
 
   return (
