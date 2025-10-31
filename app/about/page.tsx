@@ -7,10 +7,10 @@ export default function AboutPage() {
   const phone = "206-555-8888";
   
   const aboutContent = {
-    heading: "Seattle's Premier Auto Cleaning Experts",
-    story: ["Test Vercel Auto Cleaning has been serving Seattle drivers for years, delivering exceptional vehicle detailing services that keep cars looking pristine in the Pacific Northwest's challenging weather conditions.","Our experienced team combines cutting-edge cleaning technology with eco-friendly products, ensuring your vehicle receives the highest quality care while protecting Seattle's beautiful natural environment."],
-    mission: "To provide Seattle drivers with superior auto cleaning services using sustainable practices, advanced techniques, and unmatched attention to detail for every vehicle.",
-    values: [{"title":"Excellence","description":"We deliver exceptional cleaning services with meticulous attention to detail, ensuring every space meets the highest standards of cleanliness and hygiene."}]
+    heading: "Seattle's Premier Auto Cleaning Specialists",
+    story: ["Test Vercel Auto Cleaning has been serving Seattle's automotive community with professional detailing services, ensuring every vehicle receives meticulous care and attention to detail.","Located in the heart of Seattle, we combine cutting-edge cleaning technology with traditional craftsmanship to deliver exceptional results for discerning car owners."],
+    mission: "To provide Seattle drivers with superior auto cleaning services that protect, preserve, and enhance their vehicles using eco-friendly products and innovative techniques.",
+    values: [{"title":"Excellence","description":"We deliver meticulous attention to detail in every cleaning task, ensuring exceptional results that exceed client expectations consistently."}]
   };
 
   return (

@@ -11,12 +11,12 @@ export default function ServicesPage() {
   const services = [
   {
     "id": "residential-cleaning",
-    "title": "Residential House Cleaning",
-    "shortDescription": "Professional deep cleaning services for your home including all rooms, bathrooms, kitchens, and living spaces. Weekly, bi-weekly, or monthly scheduling available.",
+    "title": "Residential Home Cleaning",
+    "shortDescription": "Complete home cleaning service including dusting, vacuuming, mopping, and sanitizing all living spaces. Perfect for busy families and professionals seeking spotless homes.",
     "features": [
-      "All rooms and surfaces thoroughly cleaned",
-      "Eco-friendly cleaning products used exclusively",
-      "Flexible scheduling to fit your needs"
+      "Deep cleaning all rooms thoroughly",
+      "Eco-friendly products and safe chemicals",
+      "Flexible scheduling including weekend availability"
     ],
     "icon": "🏠"
   }
