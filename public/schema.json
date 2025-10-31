@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Test Vercel Auto Deploy",
+  "description": "Professional cleaning services in Seattle, WA",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Seattle",
+    "addressRegion": "WA",
+    "addressCountry": "US"
+  },
+  "telephone": "206-555-8888",
+  "email": "test@vercelauto.com",
+  "url": "https://test-vercel-auto.vercel.app",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "City",
+    "name": "Seattle"
+  },
+  "serviceType": "cleaning",
+  "slogan": "Your trusted cleaning experts",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127"
+  }
+}
